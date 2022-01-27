@@ -19,7 +19,7 @@ public class NotOrt {
 		System.out.print("Biyoloji notu: ");
 		biyoloji = inp.nextInt();
 		
-		System.out.print("Türkçe notu: ");
+		System.out.print("TÃ¼rkÃ§e notu: ");
 		turkce = inp.nextInt();
 		
 		System.out.print("Sosyal notu: ");
@@ -28,11 +28,11 @@ public class NotOrt {
 		
 		int toplam = (mat + fizik + kimya + biyoloji + turkce + sosyal);
 		double ortalama = toplam / 6.0;
-		System.out.println("Ortalamanız => "+ ortalama);
+		System.out.println("OrtalamanÄ±z => "+ ortalama);
 		
 		
 		boolean gecme = (ortalama >= 60);
-		System.out.println(gecme ? "Sınıfı Geçti" : "Sınıfta Kaldı");
+		System.out.println(gecme ? "SÄ±nÄ±fÄ± GeÃ§ti" : "SÄ±nÄ±fta KaldÄ±");
 		
 	}
 }
