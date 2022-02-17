@@ -1,5 +1,5 @@
-#Minefield Game
-##Rules:
+Minefield Game
+Rules:
 - Game is text based.
 - It is played on 2D arrays.
 - The matrix size (so the number of rows and columns) is determined by the user.
